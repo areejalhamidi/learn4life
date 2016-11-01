@@ -1,0 +1,27 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1:hover{
+  color: yellow;
+  font-size: 300%;
+  text-shadow: 5px 5px 5px purple;
+}
+h1{
+  color: orange;
+  transition: all 1000ms;
+  background-color: darkturquoise;
+}
+nav ul li{
+background-color: aqua;
+  
+}
+nav li{
+  border-bottom: 5px solid black;
+  padding: 5px
+}
+
+nav li:nth-child(odd){
+  background-color: lightblue;}
+.item {
+  background-color: crimson;
+}

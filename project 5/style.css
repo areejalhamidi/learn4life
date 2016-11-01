@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=UnifrakturMaguntia');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+html{
+background-color: hsl(0, 100%, 20%)
+}
+h2, h3, nav a{
+  font-family: 'Lobster', cursive;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px .25px hsl(0, 100%, 16%),
+    -1px 1px .25px hsl(0, 100%, 16%), 
+    1px -1px .25px hsl(0, 100%, 16%),
+    -1px -1px .25px hsl(0, 100%, 16%);
+}
+nav a:hover{
+  text-shadow:
+    1px 1px .25px hsl(0, 100%, 16%),
+    1px 1px 8px hsl(0, 100%, 16%),
+    -1px 1px .25px hsl(0, 100%, 16%), 
+    -1px 1px 8px hsl(0, 100%, 16%),
+    1px -1px .25px hsl(0, 100%, 16%),
+    1px -1px 8px hsl(0, 100%, 16%),
+    -1px -1px .25px hsl(0, 100%, 16%),
+  -1px -1px .25px hsl(0, 100%, 16%);
+}
+body{
+font-family: "open sans", sans-serif;
+  max-width: 756px;
+  min-width: 756x;
+  margin:0 auto;
+  border: 1px solid black;
+  padding: 10px 0;
+  background-color: hsl(0, 100%, 16%);
+}
+hr{
+margin: 0;
+  padding-top: 1px;
+  border-width: 2px 5px;
+  border-style: solid;
+  border-color: hsl(0, 100%, 16%);
+  background-color: hsl(60, 100%, 97%);
+}
+h1{
+font-family: 'unifrakturmaguntia', cursive;
+  text-align: center;
+  float: left;
+  font-size: 250%;
+  margin: 0;
+  padding: 10px 10px 0;
+  color: hsl(48, 100%, 41%);
+  text-shadow: 1px 1px .5px black, -1px 1px .25px black, 1px -1px .25px black, -1px -1px .5px hsl(48, 100%, 70%);
+  letter-spacing: 2px;
+    
+}
+header, main{
+background-color: hsl(60, 100%, 97%);
+  border: 4px solid black;
+}
+header::after{
+content:"";
+  display: block;
+  clear: both;
+
+}
+header img{
+border-left: 4px solid black;
+  float: right;
+}
+nav li{
+display: inline-block;
+}
+nav ul{
+text-align: center;
+  padding: 0;
+  margin: 20px 25px;
+  border-width: 3px 0;
+  border-style: dotted;
+  border-color: hsl(60, 8%, 73%);
+  
+}
+nav a{
+display: block;
+  padding: 0 35px;
+  font-size: 120%;
+  transition: text-shadow 200ms ease-out;
+}

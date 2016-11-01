@@ -1,0 +1,39 @@
+body {
+  font-family: "Open Sans", sans-serif;
+margin:0;
+}
+
+ul {
+background-color: aqua;
+  border:2px solid black;
+  list-style-type:none;
+  margin: 20px;
+  padding: 0px;     
+}
+a{
+background-color: mediumturquoise;
+display: block;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+    border-bottom: 10px dashed black;
+  border-top: 5px dotted black;
+  border-right: 1px solid magenta;
+  border-left: 25px double red;
+  transition: all 1000ms;
+}
+a:hover{
+  background-color: mediumpurple;
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px dashed orange;
+  border-top: 10px dotted blue;
+  border-right: 20px solid salmon;
+  border-left: 5px double purple;
+  font-size: 250%;
+}
+li {
+padding: 10px;
+}
