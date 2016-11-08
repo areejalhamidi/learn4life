@@ -1,0 +1,14 @@
+li:nth-child(1){
+float:left;
+}
+li:nth-child(2){
+    float:right;
+  }
+footer {
+  background-color: green;
+}
+ul::after {
+content: '';
+display: block;
+clear: both;
+}
