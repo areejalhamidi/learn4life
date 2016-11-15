@@ -1,0 +1,9 @@
+body{
+  font-family: verdana;
+}
+#phone, #phone + input {
+  width: 70px
+}
+legend {
+  font-family: verdana;
+}

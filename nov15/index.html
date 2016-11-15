@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form>
+<fieldset>
+  <legend>Your Personal Info</legend>
+  <label for="text"> name:
+  <input id="text" type="text" placeholder="enter name">
+</label>
+
+<label for="email"> email:
+      <input id="email" type="email" placeholder="enter email">
+</label>
+</fieldset>
+<fieldset>
+  <label for="phone"> Phone Number:
+  ( <input id="phone" type="tel" maxlength="3" placeholder="Area Coode"> )
+      <input type="tel" maxlength="3"> -
+      <input type="tel" maxlength="4">
+
+
+  </label>
+</fieldset>
+
+<label for="color"> color:
+      <input id="color" type="color" value="#ff0000">
+</label>
+
+  <label for="password"> password:
+       <input id="password" type="password">
+  </label>
+
+<label for="text area"> message:
+        <textarea id="text area"cols="100" rows="20"></textarea>
+</label>
+
+<input type="submit" id="submit" value="submit">
+</form>
+<script>
+  var inputBox = document.getElementById("password");
+  var submitBtn = document.getElementById("submit");
+
+  submitBtn.addEventListener("click", function(e){
+    e.preventDefault();
+    alert( "welcome back, " + inputBox.value );
+  });
+</script>
+</body>
+</html>
