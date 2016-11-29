@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  font-family: serif;
+}
+
+  h1, h2, h3, h4, h5, h6 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+div.card {
+  width: calc(100% / 3);
+  margin: 0 auto;
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 3px;
+  padding: 40px 20px 20px;
+  transition: all 150ms ease-out;
+
+}
+div.card:hover{
+  box-shadow: 1px 1px 5px hsla(0, 0%, 0%, .05);
+}
+
+div.card::before{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0%;
+  background-color: hsl(16, 100%, 56%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+
+div.card:hover::before{
+  width: 100%;
+}
+
+
+div.card i.fa {
+  color: hsl(237, 34%, 47%);
+  background-color: hsl(16, 100%, 66%);
+  border: 1px solid hsl(16, 100%, 56%);
+  padding: 7px 15px;
+  font-size: 250%;
+  text-shadow: 1px 1px 0px hsl(16, 100%, 56%);
+  border-radius: 3px;
+}
+
+div.card i.fa {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  transition: all 150ms ease-out;
+}
+div.card:hover i.fa{
+  transform: translate3d(-50%, -25%, 0);
+}
+
+div.card a {
+ background-color:hsl(16, 100%, 66%);
+ padding: 7px 15px;
+ border: 1px solid hsl(16, 100%, 56%);
+ text-decoration: none;
+ color: white;
+ text-shadow: 1px 1px 0px hsl(16, 100%, 56%);
+ border-radius: 3px;
+ display: inline-block;
+ box-shadow: 1px 1px 3px hsla(0, 0%, 0%, .5);
+ transition: all 150ms ease-out;
+}
+
+div.card a:hover {
+ box-shadow: 2px 2px 6px hsla(0, 0%, 0%, .5);
+ transform: scale(1.05);
+  }
+
+div.card i.fa::after{
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  content: '';
+  display: block;
+  border-width: 10px 10px 10px 10px;
+  border-style: solid;
+  border-color: lightpink transparent transparent;
+}
+div.card {
+  position: relative;
+}
+div.card .card-inner::before{
+  content: '';
+  display: block;
+  height: 0px;
+  width: 2%;
+  background-color: hsl(16, 100%, 56%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+
+div.card-inner:hover::before{
+  height: 100%;
+}
