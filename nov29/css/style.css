@@ -1,0 +1,47 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+section{
+  color: red;
+  background: pink;
+  padding: 15px 10%;
+  position: relative;
+}
+section::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+i.fa {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 10px;
+}
+i.fa-chevron-left {
+  left: 0;
+}
+i.fa-chevron-right {
+  right: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+.btn {
+ display: inline-block;
+  background-color: hsl(134, 49%, 53%);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 1px solid hsl(134, 49%, 43%);
+  text-transform: capitalize;
+}
+div {
+  width: 50%;
+  float: left;
+}
+div img {
+  width:100%;
+}
