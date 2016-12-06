@@ -1,0 +1,16 @@
+.ghetto {
+  text-align: center;
+}
+img {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+#btn {
+  text-align: center;
+background-color: purple;
+border: 1px solid;
+border-color: inherit;
+/*margin: 1px;
+padding: 1px;*/
+}
