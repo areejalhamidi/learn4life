@@ -1,0 +1,25 @@
+section {
+  background-color: teal;
+}
+section::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+section > div {
+  float: left;
+}
+section > div:first-child {
+  width: 65%;
+  position: relative;
+}
+section > div:last-child {
+  width: 35%;
+}
+section img {
+width: 100%;
+}
+section > div:first-child div {
+  position: absolute;
+  bottom: 0;
+}
