@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+body {
+  font-family: 'Arimo', sans-serif;
+}
+article {
+  width: 55%;
+  display: block;
+  float: left;
+}
+ article img {
+   width:100%;
+ }
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+aside {
+  float:right;
+  width: 35%;
+}
+#graytext {
+  font-size: 11px;
+  color: gray;
+}
+
+.flower {
+float: left;
+margin-right: 5px;
+}
+
+li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
