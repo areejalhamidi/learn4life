@@ -1,0 +1,48 @@
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+header{
+  background-image: url('../img/banner.jpg');
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+}
+h1{
+  margin: 0;
+  font-size: 4em;
+}
+p{
+  margin: 0px;
+}
+nav{
+  padding: 10px;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+  margin: 50px 0 0 0;
+}
+
+li{
+  display: inline-block;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+
+  padding: 20px 30px;
+  border-radius: 100px;
+}
+a:hover{
+  background-color: hsla( 0 ,0%, 100%, .1);
+  border: 1px solid white;
+}

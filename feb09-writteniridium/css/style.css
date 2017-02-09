@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+header{
+  background-image: url('../img/banner.jpg');
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+}
+h1{
+  margin: 0;
+  font-size: 4em;
+}
+p{
+  margin: 0px;
+}
+nav{
+  padding: 10px;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+  margin: 50px 0 0 0;
+}
+
+li{
+  display: inline-block;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+
+  padding: 20px 30px;
+  border-radius: 100px;
+}
+a:hover{
+  background-color: hsla( 0 ,0%, 100%, .1);
+  border: 1px solid white;
+}
+/*article{
+  width: 50%;
+  display: block;
+  float: left;
+  margin-left: 60px;
+  margin-right: 10px;
+}*/
+.flower {
+float: right;
+margin-right: 5px;
+}
+ #greytext{
+   font-size: 11px;
+  color: gray;
+ }
+/*aside{
+  width: 40%;
+  display: block;
+  float: right;
+  /*margin-left: 20px;*/
+
+/*section article{
+  width:70%;
+float: left;
+}
+section aside {
+  width: 30%;
+  float: right;
+}*/
+section{
+  padding: 50px 12%;
+  display: flex;
+}
+section article{
+  flex: 2;
+}
+section aside{
+  flex: 1;
+}
+/*article img{
+  width: 100%;
+}*/
+h2 {
+  font-size: 2.5em;
+}
+h2 + h4 {
+  margin: 0;
+  font-size: 1.25em;
+}
+aside img {
+  float: left;
+  margin-right: 15px;
+}
+aside p {
+padding-left: 85px;
+}
+aside li:last-child {
+  border: none;
+}
+aside li:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+aside li:not(:first-child) {
+padding-top: 25px;
+}
