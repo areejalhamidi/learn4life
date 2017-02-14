@@ -15,6 +15,18 @@ header{
   color: white;
   text-transform: uppercase;
 }
+header a:hover {
+  background-color: hsla(0, 0%, 0%, .1);
+  border-color: white;
+}
+.cta-btn {
+  display: inline-block;
+  background-color: hsl(11, 80%, 57%);
+  color: white;
+}
+section:last-of-type {
+  background-color: hsl(0, 0%, 85%);
+}
 h1{
   margin: 0;
   font-size: 4em;
@@ -45,7 +57,7 @@ a:hover{
   background-color: hsla( 0 ,0%, 100%, .1);
   border: 1px solid white;
 }
-.flower {
+.flower{
 float: right;
 margin-right: 5px;
 }
@@ -59,6 +71,7 @@ section{
 }
 section article{
   flex: 2;
+  height: 50%;
 }
 section aside{
   flex: 1;
@@ -86,3 +99,27 @@ aside li:not(:last-child) {
 aside li:not(:first-child) {
 padding-top: 25px;
 }
+section#detail ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+section#detail li{
+  /*flex: 1;*/
+  width: 150px;
+}
+section#detail li:nth-child(2) {
+  margin: 0 25px;
+}
+section#detail li img {
+  width: 100%;
+}
+/*section ul li{
+  width: calc( (100% / 3) - 25px);
+  margin: 0 25px 0 0;
+  float: left;
+}*/
+
+/*div {
+  float: left;
+}*/
