@@ -118,3 +118,56 @@ section#detail li:nth-child(2) {
 section#detail li img {
   width: 100%;
 }
+
+footer ul {
+  color: lightgrey;
+  text-decoration-style: none;
+margin: 0;
+padding: 0;
+}
+footer{
+  background-color:hsl(0, 0%, 11.4%);
+}
+
+footer ul li{
+  display: block;
+  border-top: 1px solid;
+  padding: 0.60em 0em;
+  border-color: hsla(0, 0%, 100%, 0.1);
+  color: hsla(0, 0%, 100%, 0.5)
+}
+footer h3 {
+  color: white;
+}
+footer li {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+}
+footer li{
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+#links {
+  display: flex;
+  padding: 50px 10%;
+}
+#links div {
+  flex: 1;
+  margin: 0 20px;
+}
+#copy {
+  background-color: hsl(0, 0%, 0.2%);
+  padding: 40px;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.2);
+}
