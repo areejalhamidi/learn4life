@@ -1,0 +1,21 @@
+body{
+  margin:0;
+  background-color: hsl(167, 29%, 54%);
+}
+nav li {
+  display: inline-block;
+}
+section{
+  padding: 150px 10%;
+  background-image: url('https://unsplash.it/750/750');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+footer{
+  background-color: darkgrey;
+  padding: 50px 10%;
+
+}
