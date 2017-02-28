@@ -1,0 +1,24 @@
+@keyframes myanimation {
+  0% {
+    transform: scale(1) rotate(0deg);
+    border: 0px solid black;
+  }
+  50% {
+    transform: scale(2) rotate(180deg);
+    border: 10px solid red;
+  }
+  100% {
+  transform: scale(1) rotate(360deg);
+  border: 0px solid black;
+  }
+}
+
+figure img{
+  transition: border-radius 500ms;
+    animation: myanimation 5s infinite linear;
+}
+
+figure:hover img {
+  border-radius: 100%;
+
+}
