@@ -1,72 +1,33 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-body {
-  background-color: hsl(240, 6%, 13%)
-
+header {
+  background-image: url(https://images.unsplash.com/photo-1488826020868-228e83907f82?dpr=1.5&auto=format&fit=crop&w=1500&h=998&q=80&cs=tinysrgb&crop=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-section{
-  padding: 0 10%;
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 6%;
 }
-div {
-  margin: 0 auto;
-  width: 30%;
-  padding-bottom: 20px;
-  text-align: center;
-  display:inline-block;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  background-color: hsl(240, 16%, 18%);
-  border-radius: 3px;
+nav li {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-h4{
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
   color: white;
 }
-img {
-  width: 100%;
-}
-p {
-padding: 6px;
-  text-align: center;
-  color: grey;
-}
-div img {
-  height: 50%;
-}
-a {
-  margin: 15px;
-  padding: 10px 10px;
+header a {
   text-decoration: none;
-  border-radius: 3px;
-  margin-bottom: 20px;
-  color: white;
-  display: block;
+  padding: 10px;
+border: 5px;
 }
-.fa fa-twitter {
-  text-align: center;
-}
-.fa fa-facebook {
-  text-align: center;
-}
-.fa fa-instagram {
-  text-align: center;
-}
-.fa fa-envelope {
-  text-align: center;
-}
-
-#one {
-  background-color: hsl(174, 44%, 65%)
-}
-#two {
-  background-color: hsl(226, 45%, 65%)
-}
-#three {
-  background-color: hsl(263, 47%, 65%)
-}
-#footer {
-  text-align: center;
-  color: hsl(0, 10%, 0%);
-}
-#foot {
-  text-align: center;
-
+header a:hover {
+background-color: white;
 }
