@@ -1,6 +1,13 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+#index{
+  background-image: url(../img/photo-1488826020868-228e83907f82.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 header {
-  background-image: url(https://images.unsplash.com/photo-1488826020868-228e83907f82?dpr=1.5&auto=format&fit=crop&w=1500&h=998&q=80&cs=tinysrgb&crop=);
+  background-image: url(../img/photo-1488826020868-228e83907f82.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -27,7 +34,27 @@ header a {
   text-decoration: none;
   padding: 10px;
 border: 5px;
+color: white;
 }
 header a:hover {
-background-color: white;
+background-color: rgb(59, 4, 78);
+transition: 0.5s;
+border-radius: 10px;
+}
+#first h2 {
+background-image:url(../img/photo-1488831938626-6f9028084b1a-1.jpg);
+width: 200px;
+height: 200px;
+background-size: cover;
+display: block;
+}
+#first {
+  text-align: center;
+  border-radius: 50%;
+}
+#footer{
+display: flex;
+justify-content: center;
+align-items: baseline;
+color: hsl(265, 18%, 64%)
 }
