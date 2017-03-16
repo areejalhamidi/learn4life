@@ -14,3 +14,19 @@ img{
 div{
   padding: 100px 10%;
 }
+@media screen and (min-width: 1000px){
+body{
+  background-color: pink;
+}
+}
+@media screen and (max-width: 100px){
+h1{
+  font-size: 3em;
+  line-height: 1.5;
+}
+img{
+  width: 100%;
+  float: none;
+  margin-left: 0;
+}
+}
