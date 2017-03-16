@@ -1,0 +1,16 @@
+@import url('https://fonts.googleleapis.com/css?family=Work+Sans:700');
+body{
+  margin: 0;
+}
+h1 {
+  font-family: 'Work Sans' , sans-serif;
+  font-weight: 700;
+}
+img{
+  width: 50%;
+  float: right;
+  margin: 0 0 25px 25px;
+}
+div{
+  padding: 100px 10%;
+}

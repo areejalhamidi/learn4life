@@ -42,15 +42,18 @@ transition: 0.5s;
 border-radius: 10px;
 }
 #first h2 {
-background-image:url(../img/photo-1488831938626-6f9028084b1a-1.jpg);
-width: 200px;
-height: 200px;
-background-size: cover;
+  background-image:url(../img/photo-1488831938626-6f9028084b1a-1.jpg);
+width: 100%;
 display: block;
+border-radius: 50%;
 }
+
 #first {
   text-align: center;
   border-radius: 50%;
+}
+#second ul li{
+  list-style:none;
 }
 #footer{
 display: flex;
