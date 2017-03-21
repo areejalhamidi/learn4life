@@ -1,0 +1,38 @@
+#firstbody{
+  margin: 0;
+}
+#homesection{
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/c/c0/People_Shadow.JPG);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: black;
+text-align: center;
+height: 100%;
+
+}
+#homesection p{
+padding-top: 80px;
+padding-bottom: 80px;
+padding-left: 25%;
+padding-right: 25%;
+}
+#homesection h1{
+margin: 0;
+padding-top: 30px;
+}
+#homesection a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: black;
+  border-radius: 5px;
+  transition: 70ms;
+  margin-bottom: 270px;
+}
+  #homesection a:hover{
+padding: 20px;
+transition: 70ms;
+}

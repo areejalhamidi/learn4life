@@ -1,32 +1,51 @@
-@import url('https://fonts.googleleapis.com/css?family=Work+Sans:700');
-body{
-  margin: 0;
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+
 }
 h1 {
-  font-family: 'Work Sans' , sans-serif;
-  font-weight: 700;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 64px;
+}
+h1, h2 {
+    font-weight: 400;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+main {
+    padding: 64px 16%;
+}
+li{
+  padding: 0 0 128px 0;
+  display: flex;
 }
 img{
   width: 50%;
-  float: right;
-  margin: 0 0 25px 25px;
+    border-radius: 100%;
 }
-div{
-  padding: 100px 10%;
+li:nth-child(odd) img{
+order: 0;
+margin-left: 24px;
 }
-@media screen and (min-width: 1000px){
-body{
-  background-color: pink;
+li:nth-child(even) img{
+order: 1;
+margin-left: 24px;
 }
-}
-@media screen and (max-width: 100px){
-h1{
-  font-size: 3em;
-  line-height: 1.5;
-}
-img{
-  width: 100%;
-  float: none;
-  margin-left: 0;
-}
+@media screen and (max-width: 700px){
+  img{
+    width:80%;
+  }
+  li{
+    flex-direction: column;
+  }
+  li img {
+    order: 0; !important;
+  }
 }
